@@ -13,6 +13,8 @@
   }
 }
 
+/* React Logo */
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +38,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* Main Page */
+
+:root {
+  --graph-bg-color: white;
+  --eqbar-bg-color: white;
+
+}
+
+main {
+  width: 100vw;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* Graph */
+
+#graph {
+  background-color: var(--graph-bg-color);
+  min-height: 100vh;
+  max-width: 100vw;
+  flex-basis: 67vw;
+  flex-grow: 1;
+}
+
+/* Equation Sidebar */
+
+#eqbar {
+  background-color: var(--eqbar-bg-color);
+}
+
+#eq-graph-border {
+  width: 5px;
+  background-color: var(--eqbar-bg-color);
+}
+
+#eq-graph-border:hover {
+  cursor: ew-resize;
+}
+

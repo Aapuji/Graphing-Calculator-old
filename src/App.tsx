@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { HTMLFactory } from 'react';
 import logo from './logo.svg';
+import Graph  from './graph/Graph';
+import EqSidebar from './sidebar/EqSidebar';
 import './App.css';
 
 function App() {
-  return (
+  return <>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,8 +21,15 @@ function App() {
           Learn React
         </a>
       </header>
+
+
+      <main className="flex-container">
+        <EqSidebar />
+        <div id="eq-graph-border" onDrag={() => {}} draggable="true"></div>
+        <Graph />
+      </main>
     </div>
-  );
+  </>;
 }
 
 export default App;
