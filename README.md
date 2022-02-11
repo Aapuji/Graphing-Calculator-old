@@ -46,4 +46,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Helpful Links
-- [https://stackoverflow.com/questions/39426083/update-react-component-every-second] Updating components continuously
+- [https://stackoverflow.com/questions/39426083/update-react-component-every-second] (Updating components continuously)
